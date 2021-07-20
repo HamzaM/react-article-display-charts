@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: hvmzx/react-article-display
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 imagePullSecrets: []
 nameOverride: ""
